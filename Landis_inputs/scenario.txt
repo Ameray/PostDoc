@@ -1,0 +1,22 @@
+LandisData Scenario
+Duration 100
+Species species.txt 
+Ecoregions landtypes.txt
+EcoregionsMap landtypes.tif
+CellLength 200 << m 
+>> Succession Extension Initialization File
+>> -------------------- -------------------
+"ForC Succession"   "forCS-input.txt"
+>> Disturbance Extensions   Initialization File
+>>----------------------   -------------------
+"Base BDA"         "base-bda.txt"
+"Base Wind"          "base-wind.txt"
+"Base Fire"       "base-fire.txt" 
+"Biomass Harvest"	    "biomass-harvest.txt"
+DisturbancesRandomOrder  no
+>>    Other Extensions      Initialization File
+>> ----------------------   -------------------
+"Output Cohort Statistics"    "output-cohort-statistics.txt"
+"Output Biomass"			"outbiomass.txt"  
+
+>>RandomNumberSeed  101664169    << generated for current time

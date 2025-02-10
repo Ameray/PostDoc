@@ -1,0 +1,18 @@
+LandisData "Base BDA"
+
+Timestep  1 
+
+MapNames		bda/{agentName}-severity-{timestep}.tif		<< map of severity; 0=non-active site, 1=active but undisturbed site, 2=severity 1, 3=severity 2, 4=severity 3
+
+SRDMapNames		bda/{agentName}-SRD-{timestep}.tif	<< map of site susceptibility, from 0 to 100.
+
+NRDMapNames		bda/{agentName}-NRD-{timestep}.tif	<< map of site neighborhood susceptibility, from 0 to 100.
+
+BDPMapNames 	bda/{agentName}-BDP-{timestep}.tif	<< map of Biological disturbance probability, from 0 to 100.
+
+LogFile			bda/bda-log.csv
+
+BDAInputFiles 	 	base-bda_budworm-1.txt 
+ 	 	base-bda_budworm-2.txt 
+ 		base-bda_budworm-3.txt
+	

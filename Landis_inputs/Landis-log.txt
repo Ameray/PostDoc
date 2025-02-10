@@ -1,0 +1,187 @@
+2025-01-16 12:13:35,920 - LANDIS-II 7.0 (7)
+2025-01-16 12:13:35,926 - 
+2025-01-16 12:13:35,970 - Loading scenario from file "scenario.txt" ...
+2025-01-16 12:13:36,012 - Initialized random number generator with seed = 2 892 124 657
+2025-01-16 12:13:36,012 - Loading species data from file "species_coteNord.txt" ...
+2025-01-16 12:13:36,025 - Loading ecoregions from file "landtypes_coteNord.txt" ...
+2025-01-16 12:13:36,034 - Initializing landscape from ecoregions map "landtypes_coteNord.tif" ...
+2025-01-16 12:13:36,042 - Cell length = 200 m, cell area = 4 ha
+2025-01-16 12:13:36,043 - Map dimensions: 2 241 rows by 2 145 columns = 4 806 945 cells
+2025-01-16 12:13:36,455 - Sites: 1 110 431 active (23.1 %), 3 696 514 inactive (76.9 %)
+2025-01-16 12:13:37,070 - Loading ForC Succession extension ...
+2025-01-16 12:13:37,099 - Warning: Initial DOM value for Ecoregion: eco4SALO species: BJ DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,100 - Warning: Initial DOM value for Ecoregion: eco4SALO species: BJ DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,100 - Warning: Initial DOM value for Ecoregion: eco4SALO species: BJ DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,100 - Warning: Initial DOM value for Ecoregion: eco4SALO species: BJ DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,100 - Warning: Initial DOM value for Ecoregion: eco4SALO species: BJ DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,100 - Warning: Initial DOM value for Ecoregion: eco4SALO species: BJ DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,100 - Warning: Initial DOM value for Ecoregion: eco4SALO species: BJ DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,101 - Warning: Initial DOM value for Ecoregion: eco4SALO species: BJ DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,101 - Warning: Initial DOM value for Ecoregion: eco4SALO species: BJ DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,101 - Warning: Initial DOM value for Ecoregion: eco4LOSA species: BJ DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,101 - Warning: Initial DOM value for Ecoregion: eco4LOSA species: BJ DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,101 - Warning: Initial DOM value for Ecoregion: eco4LOSA species: BJ DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,102 - Warning: Initial DOM value for Ecoregion: eco4LOSA species: BJ DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,102 - Warning: Initial DOM value for Ecoregion: eco4LOSA species: BJ DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,102 - Warning: Initial DOM value for Ecoregion: eco4LOSA species: BJ DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,103 - Warning: Initial DOM value for Ecoregion: eco4LOSA species: BJ DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,103 - Warning: Initial DOM value for Ecoregion: eco4LOSA species: BJ DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,103 - Warning: Initial DOM value for Ecoregion: eco4LOSA species: BJ DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,104 - Warning: Initial DOM value for Ecoregion: eco5SALO species: BJ DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,104 - Warning: Initial DOM value for Ecoregion: eco5SALO species: BJ DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,105 - Warning: Initial DOM value for Ecoregion: eco5SALO species: BJ DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,105 - Warning: Initial DOM value for Ecoregion: eco5SALO species: BJ DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,105 - Warning: Initial DOM value for Ecoregion: eco5SALO species: BJ DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,106 - Warning: Initial DOM value for Ecoregion: eco5SALO species: BJ DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,107 - Warning: Initial DOM value for Ecoregion: eco5SALO species: BJ DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,107 - Warning: Initial DOM value for Ecoregion: eco5SALO species: BJ DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,108 - Warning: Initial DOM value for Ecoregion: eco5SALO species: BJ DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,108 - Warning: Initial DOM value for Ecoregion: eco5LOSA species: BJ DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,109 - Warning: Initial DOM value for Ecoregion: eco5LOSA species: BJ DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,109 - Warning: Initial DOM value for Ecoregion: eco5LOSA species: BJ DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,110 - Warning: Initial DOM value for Ecoregion: eco5LOSA species: BJ DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,110 - Warning: Initial DOM value for Ecoregion: eco5LOSA species: BJ DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,111 - Warning: Initial DOM value for Ecoregion: eco5LOSA species: BJ DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,111 - Warning: Initial DOM value for Ecoregion: eco5LOSA species: BJ DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,111 - Warning: Initial DOM value for Ecoregion: eco5LOSA species: BJ DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,114 - Warning: Initial DOM value for Ecoregion: eco5LOSA species: BJ DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,114 - Warning: Initial DOM value for Ecoregion: eco6SALO species: BJ DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,114 - Warning: Initial DOM value for Ecoregion: eco6SALO species: BJ DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,115 - Warning: Initial DOM value for Ecoregion: eco6SALO species: BJ DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,115 - Warning: Initial DOM value for Ecoregion: eco6SALO species: BJ DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,116 - Warning: Initial DOM value for Ecoregion: eco6SALO species: BJ DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,116 - Warning: Initial DOM value for Ecoregion: eco6SALO species: BJ DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,116 - Warning: Initial DOM value for Ecoregion: eco6SALO species: BJ DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,117 - Warning: Initial DOM value for Ecoregion: eco6SALO species: BJ DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,117 - Warning: Initial DOM value for Ecoregion: eco6SALO species: BJ DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,118 - Warning: Initial DOM value for Ecoregion: eco6LOSA species: BJ DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,118 - Warning: Initial DOM value for Ecoregion: eco6LOSA species: BJ DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,119 - Warning: Initial DOM value for Ecoregion: eco6LOSA species: BJ DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,119 - Warning: Initial DOM value for Ecoregion: eco6LOSA species: BJ DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,119 - Warning: Initial DOM value for Ecoregion: eco6LOSA species: BJ DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,120 - Warning: Initial DOM value for Ecoregion: eco6LOSA species: BJ DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,120 - Warning: Initial DOM value for Ecoregion: eco6LOSA species: BJ DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,121 - Warning: Initial DOM value for Ecoregion: eco6LOSA species: BJ DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,121 - Warning: Initial DOM value for Ecoregion: eco6LOSA species: BJ DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,121 - Warning: Initial DOM value for Ecoregion: eco7SALO species: BJ DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,122 - Warning: Initial DOM value for Ecoregion: eco7SALO species: BJ DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,122 - Warning: Initial DOM value for Ecoregion: eco7SALO species: BJ DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,123 - Warning: Initial DOM value for Ecoregion: eco7SALO species: BJ DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,125 - Warning: Initial DOM value for Ecoregion: eco7SALO species: BJ DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,126 - Warning: Initial DOM value for Ecoregion: eco7SALO species: BJ DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,126 - Warning: Initial DOM value for Ecoregion: eco7SALO species: BJ DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,126 - Warning: Initial DOM value for Ecoregion: eco7SALO species: BJ DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,127 - Warning: Initial DOM value for Ecoregion: eco7SALO species: BJ DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,127 - Warning: Initial DOM value for Ecoregion: eco7LOSA species: BJ DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,129 - Warning: Initial DOM value for Ecoregion: eco7LOSA species: BJ DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,129 - Warning: Initial DOM value for Ecoregion: eco7LOSA species: BJ DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,129 - Warning: Initial DOM value for Ecoregion: eco7LOSA species: BJ DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,130 - Warning: Initial DOM value for Ecoregion: eco7LOSA species: BJ DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,130 - Warning: Initial DOM value for Ecoregion: eco7LOSA species: BJ DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,130 - Warning: Initial DOM value for Ecoregion: eco7LOSA species: BJ DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,131 - Warning: Initial DOM value for Ecoregion: eco7LOSA species: BJ DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,131 - Warning: Initial DOM value for Ecoregion: eco7LOSA species: BJ DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,132 - Warning: Initial DOM value for Ecoregion: eco8SALO species: BJ DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,132 - Warning: Initial DOM value for Ecoregion: eco8SALO species: BJ DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,132 - Warning: Initial DOM value for Ecoregion: eco8SALO species: BJ DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,133 - Warning: Initial DOM value for Ecoregion: eco8SALO species: BJ DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,133 - Warning: Initial DOM value for Ecoregion: eco8SALO species: BJ DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,133 - Warning: Initial DOM value for Ecoregion: eco8SALO species: BJ DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,134 - Warning: Initial DOM value for Ecoregion: eco8SALO species: BJ DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,134 - Warning: Initial DOM value for Ecoregion: eco8SALO species: BJ DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,135 - Warning: Initial DOM value for Ecoregion: eco8SALO species: BJ DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,135 - Warning: Initial DOM value for Ecoregion: eco8LOSA species: BJ DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,135 - Warning: Initial DOM value for Ecoregion: eco8LOSA species: BJ DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,136 - Warning: Initial DOM value for Ecoregion: eco8LOSA species: BJ DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,136 - Warning: Initial DOM value for Ecoregion: eco8LOSA species: BJ DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,136 - Warning: Initial DOM value for Ecoregion: eco8LOSA species: BJ DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,137 - Warning: Initial DOM value for Ecoregion: eco8LOSA species: BJ DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,137 - Warning: Initial DOM value for Ecoregion: eco8LOSA species: BJ DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,138 - Warning: Initial DOM value for Ecoregion: eco8LOSA species: BJ DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,138 - Warning: Initial DOM value for Ecoregion: eco8LOSA species: BJ DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,138 - Warning: Initial DOM value for Ecoregion: eco9SALO species: BJ DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,139 - Warning: Initial DOM value for Ecoregion: eco9SALO species: BJ DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,141 - Warning: Initial DOM value for Ecoregion: eco9SALO species: BJ DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,141 - Warning: Initial DOM value for Ecoregion: eco9SALO species: BJ DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,142 - Warning: Initial DOM value for Ecoregion: eco9SALO species: BJ DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,142 - Warning: Initial DOM value for Ecoregion: eco9SALO species: BJ DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,143 - Warning: Initial DOM value for Ecoregion: eco9SALO species: BJ DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,144 - Warning: Initial DOM value for Ecoregion: eco9SALO species: BJ DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,144 - Warning: Initial DOM value for Ecoregion: eco9SALO species: BJ DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,145 - Warning: Initial DOM value for Ecoregion: eco9LOSA species: BJ DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,145 - Warning: Initial DOM value for Ecoregion: eco9LOSA species: BJ DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,145 - Warning: Initial DOM value for Ecoregion: eco9LOSA species: BJ DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,146 - Warning: Initial DOM value for Ecoregion: eco9LOSA species: BJ DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,146 - Warning: Initial DOM value for Ecoregion: eco9LOSA species: BJ DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,146 - Warning: Initial DOM value for Ecoregion: eco9LOSA species: BJ DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,147 - Warning: Initial DOM value for Ecoregion: eco9LOSA species: BJ DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,147 - Warning: Initial DOM value for Ecoregion: eco9LOSA species: BJ DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,147 - Warning: Initial DOM value for Ecoregion: eco9LOSA species: BJ DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,148 - Warning: Initial DOM value for Ecoregion: eco10SALO species: BJ DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,148 - Warning: Initial DOM value for Ecoregion: eco10SALO species: BJ DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,149 - Warning: Initial DOM value for Ecoregion: eco10SALO species: BJ DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,149 - Warning: Initial DOM value for Ecoregion: eco10SALO species: BJ DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,149 - Warning: Initial DOM value for Ecoregion: eco10SALO species: BJ DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,150 - Warning: Initial DOM value for Ecoregion: eco10SALO species: BJ DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,150 - Warning: Initial DOM value for Ecoregion: eco10SALO species: BJ DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,151 - Warning: Initial DOM value for Ecoregion: eco10SALO species: BJ DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,151 - Warning: Initial DOM value for Ecoregion: eco10SALO species: BJ DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,151 - Warning: Initial DOM value for Ecoregion: eco10LOSA species: BJ DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,152 - Warning: Initial DOM value for Ecoregion: eco10LOSA species: BJ DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,152 - Warning: Initial DOM value for Ecoregion: eco10LOSA species: BJ DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,153 - Warning: Initial DOM value for Ecoregion: eco10LOSA species: BJ DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,153 - Warning: Initial DOM value for Ecoregion: eco10LOSA species: BJ DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,153 - Warning: Initial DOM value for Ecoregion: eco10LOSA species: BJ DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,154 - Warning: Initial DOM value for Ecoregion: eco10LOSA species: BJ DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,154 - Warning: Initial DOM value for Ecoregion: eco10LOSA species: BJ DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,155 - Warning: Initial DOM value for Ecoregion: eco10LOSA species: BJ DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,155 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EB DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,158 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EB DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,158 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EB DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,158 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EB DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,159 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EB DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,160 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EB DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,160 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EB DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,161 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EB DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,161 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EB DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,162 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EN DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,162 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EN DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,162 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EN DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,162 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EN DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,162 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EN DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,162 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EN DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,163 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EN DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,163 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EN DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,164 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: EN DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,164 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: ML DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,165 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: ML DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,165 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: ML DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,165 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: ML DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,166 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: ML DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,166 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: ML DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,167 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: ML DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,167 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: ML DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,167 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: ML DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,168 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: PG DOMPool: 1 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,168 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: PG DOMPool: 2 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,169 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: PG DOMPool: 3 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,169 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: PG DOMPool: 4 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,169 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: PG DOMPool: 5 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,170 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: PG DOMPool: 6 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,170 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: PG DOMPool: 7 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,171 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: PG DOMPool: 8 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,171 - Warning: Initial DOM value for Ecoregion: eco1LOSA species: PG DOMPool: 9 is 0. This can cause modelling artifacts.
+2025-01-16 12:13:37,204 - Reading new DM input file.
+2025-01-16 12:13:37,205 - DisturbOtherFromDOMPools: Some rows are missing. C in these DOM pools will not be affected by the disturbance.
+2025-01-16 12:13:37,212 -    Registering Data:  Succession.BiomassCohorts.
+2025-01-16 12:13:37,212 -    Registering Data:  Succession.AgeCohorts.
+2025-01-16 12:33:53,831 -    Registering Data:  TimeOfLastSuccession.
+2025-01-16 12:33:53,831 -    Registering Data:  Shade.
+2025-01-16 12:33:53,832 -    Creating Dispersal Neighborhood List.
+2025-01-16 12:33:53,832 -    Dispersal:  NeighborRadius=5100, CellLength=200, numCellRadius=25
+2025-01-16 12:33:54,534 -    Loading initial communities from file "initial-communities_coteNord.txt" ...
+2025-01-16 12:33:54,581 -    Reading initial communities map "initial-communities_coteNord.tif" ...
+2025-01-16 12:33:54,585 - ANPP values were not entered for the earliest spin-up years. Year 0 values will be used.
+2025-01-16 12:33:54,586 - MaxBiomass values were not entered for the earliest spin-up years. Year 0 values will be used.
+2025-01-16 12:39:49,597 - Loading Base BDA extension ...
+2025-01-16 12:39:49,607 - Error: The file budworm-CN.txt does not exist

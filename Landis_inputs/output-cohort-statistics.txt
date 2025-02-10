@@ -1,0 +1,18 @@
+LandisData "Output Cohort Statistics"
+Timestep 10
+
+SpeciesAgeStats
+MapNames output/cohort-stats/MAX-{species}-{statistic}-{timestep}.img
+>>MIN 	EN  EB PG  ML SB BP  PT
+SiteAgeStats
+MapNames output/cohort-stats/AGE-{statistic}-{timestep}.img
+MAX << maximum age across all species on site
+>>MED << median age across all species on site
+>>SD << standard deviation age for all spp on site
+AVG								
+SiteSpeciesStats
+MapNames output/cohort-stats/SPP-{statistic}-{timestep}.img
+RICH		<<the number of unique items, (the number of species at each site)
+
+
+

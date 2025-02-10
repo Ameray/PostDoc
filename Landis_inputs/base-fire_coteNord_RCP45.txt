@@ -1,0 +1,210 @@
+LandisData "Base Fire" 
+Timestep 1
+>> Fire Region Parameters    
+>> 
+>> Region	Map	___ Event Size ___   Ignition
+>> Name 	Code	 Mean  Min    Max      Prob.	k
+>> ---------   ------	----   ----   ----   --------  ----
+zone1_RCP45_0 	11	108	7	120	3.51E-06	50
+zone2_RCP45_0 	12	1	0	1	3.51E-06	50
+zone3_RCP45_0 	21	131	9	878	3.51E-06	50
+zone4_RCP45_0 	31	1032	1	24501	3.51E-06	50
+zone5_RCP45_0  	32	122	1	5015	3.51E-06	50
+zone6_RCP45_0 	41	344	1	11970	3.51E-06	50
+zone7_RCP45_0  	42	149	3	3551	3.51E-06	50
+zone8_RCP45_0 	51	1052	2	5074	3.51E-06	50
+zone9_RCP45_0 	52	465	1	2329	3.51E-06	50
+zone10_RCP45_0	61	1306	3	2497	3.94E-06	4
+zone11_RCP45_0 	62	220	1	1536	3.94E-06	4
+zone12_RCP45_0 	71	69	1	1044	3.94E-06	4
+zone13_RCP45_0 	72	655	2	20779	3.94E-06	4
+zone14_RCP45_0 	81	215	1	1520	3.94E-06	4
+zone15_RCP45_0	82	471	1	1470	3.94E-06	4
+zone16_RCP45_0 	91	22	5	862	3.94E-06	4
+zone17_RCP45_0	92	30	1	2620	3.94E-06	4
+zone18_RCP45_0 	101	61	1	429	3.94E-06	4
+zone19_RCP45_0 	102	212	3	277	3.94E-06	4
+zone1_RCP45_30 	111	143	9	160	3.51E-06	50
+zone2_RCP45_30 	112	0	0	0	3.51E-06	50
+zone3_RCP45_30 	121	174	12	1171	3.51E-06	50
+zone4_RCP45_30 	131	1377	1	32668	3.51E-06	50
+zone5_RCP45_30 	132	163	1	6687	3.51E-06	50
+zone6_RCP45_30 	141	458	2	15961	3.51E-06	50
+zone7_RCP45_30 	142	198	4	4735	3.51E-06	50
+zone8_RCP45_30 	151	1402	3	6765	3.51E-06	50
+zone9_RCP45_30 	152	620	1	3105	3.51E-06	50
+zone10_RCP45_30	161	1741	5	3330	3.94E-06	4
+zone11_RCP45_30	162	293	2	2048	3.94E-06	4
+zone12_RCP45_30 171	92	1	1391	3.94E-06	4
+zone13_RCP45_30	172	874	2	27705	3.94E-06	4
+zone14_RCP45_30 181	286	1	2027	3.94E-06	4
+zone15_RCP45_30	182	628	1	1960	3.94E-06	4
+zone16_RCP45_30 191	30	6	1150	3.94E-06	4
+zone17_RCP45_30	192	40	1	3493	3.94E-06	4
+zone18_RCP45_30 201	82	1	572	3.94E-06	4
+zone19_RCP45_30 202	283	4	369	3.94E-06	4
+zone1_RCP45_60 	211	215	13	240	3.51E-06	50
+zone2_RCP45_60 	212	1	2	3	3.51E-06	50
+zone3_RCP45_60 	221	261	17	1757	3.51E-06	50
+zone4_RCP45_60 	231	2065	2	49002	3.51E-06	50
+zone5_RCP45_60  232	244	2	10030	3.51E-06	50
+zone6_RCP45_60 	241	687	3	23941	3.51E-06	50
+zone7_RCP45_60  242	297	6	7102	3.51E-06	50
+zone8_RCP45_60 	251	2104	5	10148	3.51E-06	50
+zone9_RCP45_60 	252	930	1	4658	3.51E-06	50
+zone10_RCP45_60	261	2612	7	4995	3.94E-06	4
+zone11_RCP45_60 262	439	3	3072	3.94E-06	4
+zone12_RCP45_60 271	138	2	2087	3.94E-06	4
+zone13_RCP45_60 272	1311	3	41558	3.94E-06	4
+zone14_RCP45_60 281	430	2	3040	3.94E-06	4
+zone15_RCP45_60	282	942	2	2940	3.94E-06	4
+zone16_RCP45_60 291	45	9	1725	3.94E-06	4
+zone17_RCP45_60	292	59	2	5239	3.94E-06	4
+zone18_RCP45_60 301	122	2	857	3.94E-06	4
+zone19_RCP45_60 302	424	6	553	3.94E-06	4
+
+InitialFireRegionsMap	"fire-regions_0.tif"  
+
+DynamicFireRegionTable    << for all the scenarios we start with the current burn rate (2010), the FireRegion were dynamic for 3 periods olny for RCP : 2010(year 1)-2040; 2040(year 40)-2100; and 2100(year 100)-2200
+>>Year FileName 
+
+30  "fire-regions_30.tif"
+60 "fire-regions_60.tif"
+
+FuelCurveTable  <<we used Trembaly et al (2018) and Boulanger et al (2016) values for western sector.
+>>             Severities (in increasing order)
+>> Ecoregion   S1   S2   S3   S4   S5
+>> ------------------------------------   
+zone1_RCP45_0   -1 -1 -1 -1 10
+zone2_RCP45_0   -1 -1 -1 -1 10
+zone3_RCP45_0   -1 -1 -1 -1 10
+zone4_RCP45_0   -1 -1 -1 -1 10
+zone5_RCP45_0   -1 -1 -1 -1 10
+zone6_RCP45_0   -1 -1 -1 -1 10
+zone7_RCP45_0   -1 -1 -1 -1 10
+zone8_RCP45_0   -1 -1 -1 -1 10
+zone9_RCP45_0   -1 -1 -1 -1 10
+zone10_RCP45_0  -1 -1 -1 -1 10
+zone11_RCP45_0  -1 -1 -1 -1 10
+zone12_RCP45_0  -1 -1 -1 -1 10
+zone13_RCP45_0  -1 -1 -1 -1 10
+zone14_RCP45_0  -1 -1 -1 -1 10
+zone15_RCP45_0  -1 -1 -1 -1 10
+zone16_RCP45_0  -1 -1 -1 -1 10
+zone17_RCP45_0  -1 -1 -1 -1 10
+zone18_RCP45_0  -1 -1 -1 -1 10
+zone19_RCP45_0  -1 -1 -1 -1 10
+zone1_RCP45_30   -1 -1 -1 -1 10
+zone2_RCP45_30   -1 -1 -1 -1 10
+zone3_RCP45_30   -1 -1 -1 -1 10
+zone4_RCP45_30   -1 -1 -1 -1 10
+zone5_RCP45_30   -1 -1 -1 -1 10
+zone6_RCP45_30   -1 -1 -1 -1 10
+zone7_RCP45_30   -1 -1 -1 -1 10
+zone8_RCP45_30   -1 -1 -1 -1 10
+zone9_RCP45_30   -1 -1 -1 -1 10
+zone10_RCP45_30  -1 -1 -1 -1 10
+zone11_RCP45_30  -1 -1 -1 -1 10
+zone12_RCP45_30  -1 -1 -1 -1 10
+zone13_RCP45_30  -1 -1 -1 -1 10
+zone14_RCP45_30  -1 -1 -1 -1 10
+zone15_RCP45_30  -1 -1 -1 -1 10
+zone16_RCP45_30  -1 -1 -1 -1 10
+zone17_RCP45_30  -1 -1 -1 -1 10
+zone18_RCP45_30  -1 -1 -1 -1 10
+zone19_RCP45_30  -1 -1 -1 -1 10
+zone1_RCP45_60   -1 -1 -1 -1 10
+zone2_RCP45_60   -1 -1 -1 -1 10
+zone3_RCP45_60   -1 -1 -1 -1 10
+zone4_RCP45_60   -1 -1 -1 -1 10
+zone5_RCP45_60   -1 -1 -1 -1 10
+zone6_RCP45_60   -1 -1 -1 -1 10
+zone7_RCP45_60   -1 -1 -1 -1 10
+zone8_RCP45_60   -1 -1 -1 -1 10
+zone9_RCP45_60   -1 -1 -1 -1 10
+zone10_RCP45_60  -1 -1 -1 -1 10
+zone11_RCP45_60  -1 -1 -1 -1 10
+zone12_RCP45_60  -1 -1 -1 -1 10
+zone13_RCP45_60  -1 -1 -1 -1 10
+zone14_RCP45_60  -1 -1 -1 -1 10
+zone15_RCP45_60  -1 -1 -1 -1 10
+zone16_RCP45_60  -1 -1 -1 -1 10
+zone17_RCP45_60  -1 -1 -1 -1 10
+zone18_RCP45_60  -1 -1 -1 -1 10
+zone19_RCP45_60  -1 -1 -1 -1 10
+
+>>--------------------------
+
+WindCurveTable  <<we used Trembaly et al (2018) and Boulanger et al (2016) values for western sector. -1: desactivated, we will only consider the primary distrubance (wildfires)
+>> Ecoregion S5 S4 S3 S2 S1
+>> ----------------------------------
+zone1_RCP45_0   -1 -1 -1 -1 10
+zone2_RCP45_0   -1 -1 -1 -1 10
+zone3_RCP45_0   -1 -1 -1 -1 10
+zone4_RCP45_0   -1 -1 -1 -1 10
+zone5_RCP45_0   -1 -1 -1 -1 10
+zone6_RCP45_0   -1 -1 -1 -1 10
+zone7_RCP45_0   -1 -1 -1 -1 10
+zone8_RCP45_0   -1 -1 -1 -1 10
+zone9_RCP45_0   -1 -1 -1 -1 10
+zone10_RCP45_0  -1 -1 -1 -1 10
+zone11_RCP45_0  -1 -1 -1 -1 10
+zone12_RCP45_0  -1 -1 -1 -1 10
+zone13_RCP45_0  -1 -1 -1 -1 10
+zone14_RCP45_0  -1 -1 -1 -1 10
+zone15_RCP45_0  -1 -1 -1 -1 10
+zone16_RCP45_0  -1 -1 -1 -1 10
+zone17_RCP45_0  -1 -1 -1 -1 10
+zone18_RCP45_0  -1 -1 -1 -1 10
+zone19_RCP45_0  -1 -1 -1 -1 10
+zone1_RCP45_30   -1 -1 -1 -1 10
+zone2_RCP45_30   -1 -1 -1 -1 10
+zone3_RCP45_30   -1 -1 -1 -1 10
+zone4_RCP45_30   -1 -1 -1 -1 10
+zone5_RCP45_30   -1 -1 -1 -1 10
+zone6_RCP45_30   -1 -1 -1 -1 10
+zone7_RCP45_30   -1 -1 -1 -1 10
+zone8_RCP45_30   -1 -1 -1 -1 10
+zone9_RCP45_30   -1 -1 -1 -1 10
+zone10_RCP45_30  -1 -1 -1 -1 10
+zone11_RCP45_30  -1 -1 -1 -1 10
+zone12_RCP45_30  -1 -1 -1 -1 10
+zone13_RCP45_30  -1 -1 -1 -1 10
+zone14_RCP45_30  -1 -1 -1 -1 10
+zone15_RCP45_30  -1 -1 -1 -1 10
+zone16_RCP45_30  -1 -1 -1 -1 10
+zone17_RCP45_30  -1 -1 -1 -1 10
+zone18_RCP45_30  -1 -1 -1 -1 10
+zone19_RCP45_30  -1 -1 -1 -1 10
+zone1_RCP45_60   -1 -1 -1 -1 10
+zone2_RCP45_60   -1 -1 -1 -1 10
+zone3_RCP45_60   -1 -1 -1 -1 10
+zone4_RCP45_60   -1 -1 -1 -1 10
+zone5_RCP45_60   -1 -1 -1 -1 10
+zone6_RCP45_60   -1 -1 -1 -1 10
+zone7_RCP45_60   -1 -1 -1 -1 10
+zone8_RCP45_60   -1 -1 -1 -1 10
+zone9_RCP45_60   -1 -1 -1 -1 10
+zone10_RCP45_60  -1 -1 -1 -1 10
+zone11_RCP45_60  -1 -1 -1 -1 10
+zone12_RCP45_60  -1 -1 -1 -1 10
+zone13_RCP45_60  -1 -1 -1 -1 10
+zone14_RCP45_60  -1 -1 -1 -1 10
+zone15_RCP45_60  -1 -1 -1 -1 10
+zone16_RCP45_60  -1 -1 -1 -1 10
+zone17_RCP45_60  -1 -1 -1 -1 10
+zone18_RCP45_60  -1 -1 -1 -1 10
+zone19_RCP45_60  -1 -1 -1 -1 10
+
+FireDamageTable   <<we used Tremblay et al (2018) and Boulanger et al (2016) value, similar to those of Base fire extension user guide
+>> Cohort Age FireSeverity -
+>> % of longevity FireTolerance
+>> -------------- --------------
+20% -2
+50% -1
+85% 0
+100% 1
+MapNames output/fire/severity-{timestep}.img
+LogFile output/fire/log.csv
+SummaryLogFile output/fire/summary-log.csv
+

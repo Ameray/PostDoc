@@ -1,0 +1,26 @@
+LandisData "ForC Succession"
+
+ClimateTable  << only MAT for each ecoregion
+>>Time	Eco	AvgT	
+>>Step		(C)	
+>>-------------------------
+0	eco1LOSA	2.35
+0	eco1SALO	2.35
+0	eco2SALO	1.25
+0	eco3LOSA	1.01
+0	eco3SALO	1.01
+0	eco4LOSA	0.03
+0	eco4SALO	0.03
+0	eco5LOSA	-1.23
+0	eco5SALO	-1.23
+0	eco6LOSA	-0.76
+0	eco6SALO	-0.76
+0	eco7LOSA	-1.99
+0	eco7SALO	-1.99
+0	eco8LOSA	-2.25
+0	eco8SALO	-2.25
+0	eco9LOSA	-2.55
+0	eco9SALO	-2.55
+0	eco10LOSA	-2.11
+0	eco10SALO	-2.11
+

@@ -1,0 +1,24 @@
+LandisData Ecoregions
+>> Map
+>> Active Code Name Description
+>> ------ ---- ----- -----------	
+yes		11	eco1SALO	"SALOtexture+clm_region1"
+yes		12	eco1LOSA	"LOSAtexture+clm_region1"
+yes		21	eco2SALO	"SALOtexture+clm_region2"
+yes		31	eco3SALO	"SALOtexture+clm_region3"	
+yes		32	eco3LOSA	"LOSAtexture+clm_region3"	
+yes		41	eco4SALO	"SALOtexture+clm_region4"	
+yes		42	eco4LOSA	"LOSAtexture+clm_region4"	
+yes		51	eco5SALO	"SALOtexture+clm_region5"	
+yes		52	eco5LOSA	"LOSAtexture+clm_region5"	
+yes		61	eco6SALO	"SALOtexture+clm_region6"	
+yes		62	eco6LOSA	"LOSAtexture+clm_region6"	
+yes		71	eco7SALO	"SALOtexture+clm_region7"	
+yes		72	eco7LOSA	"LOSAtexture+clm_region7"	
+yes		81	eco8SALO	"SALOtexture+clm_region8"	
+yes		82	eco8LOSA	"LOSAtexture+clm_region8"	
+yes		91	eco9SALO	"SALOtexture+clm_region9"	
+yes		92	eco9LOSA	"LOSAtexture+clm_region9"	
+yes		101	eco10SALO	"SALOtexture+clm_region10"	
+yes		102	eco10LOSA	"LOSAtexture+clm_region10"
+no		0	desactivated     "waterland"	

@@ -1,0 +1,101 @@
+LandisData "Base Fire" 
+Timestep 1
+>> Fire Region Parameters    
+>> 
+>> Region	Map	___ Event Size ___   Ignition
+>> Name 	Code	 Mean  Min    Max      Prob.	k
+>> ---------   ------	----   ----   ----   --------  ----
+zone1_baseline_0 	11	108	7	120	3.51e-06	50
+zone2_baseline_0 	12	1	0	1	3.51e-06	50
+zone3_baseline_0 	21	131	9	878	3.51e-06	50
+zone4_baseline_0 	31	1032	1	24501	3.51e-06	50
+zone5_baseline_0  	32	122	1	5015	3.51e-06	50
+zone6_baseline_0 	41	344	1	11970	3.51e-06	50
+zone7_baseline_0  	42	149	3	3551	3.51e-06	50
+zone8_baseline_0 	51	1052	2	5074	3.51e-06	50
+zone9_baseline_0 	52	465	1	2329	3.51e-06	50
+zone10_baseline_0	61	1306	3	2497	3.94e-06	4
+zone11_baseline_0 	62	220	1	1536	3.94e-06	4
+zone12_baseline_0 	71	69	1	1044	3.94e-06	4
+zone13_baseline_0 	72	655	2	20779	3.94e-06	4
+zone14_baseline_0 	81	215	1	1520	3.94e-06	4
+zone15_baseline_0	82	471	1	1470	3.94e-06	4
+zone16_baseline_0 	91	22	5	862	3.94e-06	4
+zone17_baseline_0	92	30	1	2620	3.94e-06	4
+zone18_baseline_0 	101	61	1	429	3.94e-06	4
+zone19_baseline_0 	102	212	3	277	3.94e-06	4
+
+
+
+
+InitialFireRegionsMap	"fire-regions_0.tif"  
+
+DynamicFireRegionTable    << only for RCP scenarios. for all the scenarios we start with the current burn rate (2010), the FireRegion were dynamic for 3 periods olny for RCP : 2010(year 1)-2040; 2040(year 40)-2100; and 2100(year 100)-2200
+>>Year FileName 
+>>0 "Fire_map_0.tif"
+>>30  "Firemap_B_40.img"
+>>60 "Firemap_B_70.img"
+
+FuelCurveTable  <<we used Trembaly et al (2018) and Boulanger et al (2016) values for western sector.
+>>             Severities (in increasing order)
+>> Ecoregion   S1   S2   S3   S4   S5
+>> ------------------------------------   
+zone1_baseline_0   -1 -1 -1 -1 10
+zone2_baseline_0   -1 -1 -1 -1 10
+zone3_baseline_0   -1 -1 -1 -1 10
+zone4_baseline_0   -1 -1 -1 -1 10
+zone5_baseline_0   -1 -1 -1 -1 10
+zone6_baseline_0   -1 -1 -1 -1 10
+zone7_baseline_0   -1 -1 -1 -1 10
+zone8_baseline_0   -1 -1 -1 -1 10
+zone9_baseline_0   -1 -1 -1 -1 10
+zone10_baseline_0  -1 -1 -1 -1 10
+zone11_baseline_0  -1 -1 -1 -1 10
+zone12_baseline_0  -1 -1 -1 -1 10
+zone13_baseline_0  -1 -1 -1 -1 10
+zone14_baseline_0  -1 -1 -1 -1 10
+zone15_baseline_0  -1 -1 -1 -1 10
+zone16_baseline_0  -1 -1 -1 -1 10
+zone17_baseline_0  -1 -1 -1 -1 10
+zone18_baseline_0  -1 -1 -1 -1 10
+zone19_baseline_0  -1 -1 -1 -1 10
+
+
+>>--------------------------
+
+WindCurveTable  <<we used Trembaly et al (2018) and Boulanger et al (2016) values for western sector. -1: desactivated
+>> Ecoregion S5 S4 S3 S2 S1
+>> ----------------------------------
+zone1_baseline_0   -1 -1 -1 -1 10
+zone2_baseline_0   -1 -1 -1 -1 10
+zone3_baseline_0   -1 -1 -1 -1 10
+zone4_baseline_0   -1 -1 -1 -1 10
+zone5_baseline_0   -1 -1 -1 -1 10
+zone6_baseline_0   -1 -1 -1 -1 10
+zone7_baseline_0   -1 -1 -1 -1 10
+zone8_baseline_0   -1 -1 -1 -1 10
+zone9_baseline_0   -1 -1 -1 -1 10
+zone10_baseline_0  -1 -1 -1 -1 10
+zone11_baseline_0  -1 -1 -1 -1 10
+zone12_baseline_0  -1 -1 -1 -1 10
+zone13_baseline_0  -1 -1 -1 -1 10
+zone14_baseline_0  -1 -1 -1 -1 10
+zone15_baseline_0  -1 -1 -1 -1 10
+zone16_baseline_0  -1 -1 -1 -1 10
+zone17_baseline_0  -1 -1 -1 -1 10
+zone18_baseline_0  -1 -1 -1 -1 10
+zone19_baseline_0  -1 -1 -1 -1 10
+
+
+FireDamageTable   <<we used Tremblay et al (2018) and Boulanger et al (2016) value, similar to those of Base fire extension user guide
+>> Cohort Age FireSeverity -
+>> % of longevity FireTolerance
+>> -------------- --------------
+20% -2
+50% -1
+85% 0
+100% 1
+MapNames output/fire/severity-{timestep}.img
+LogFile output/fire/log.csv
+SummaryLogFile output/fire/summary-log.csv
+

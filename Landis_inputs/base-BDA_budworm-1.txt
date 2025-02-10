@@ -1,0 +1,48 @@
+LandisData "BDA Agent"
+BDAAgentName budworm1
+BDPCalibrator 1
+SRDMode mean
+StartYear 10       
+EndYear   17
+>> Regional Outbreak Inputs
+OutbreakPattern CyclicUniform
+MaxInterval 0
+MinInterval 0
+TimeSinceLastEpidemic 0
+TemporalType variablepulse
+MinROS 0
+MaxROS 3
+>> Dispersal Parameters
+Dispersal no
+DispersalRate 50000
+EpidemicThresh 0.5
+InitialEpicenterNum 0
+OutbreakEpicenterCoeff 0.01
+OutbreakEpicenterThresh 0
+SeedEpicenter yes
+SeedEpicenterMax 2
+SeedEpicenterCoeff 0.25
+DispersalTemplate MaxRadius
+>> Neighborhood Resource Inputs
+NeighborFlag yes
+NeighborSpeedUp none
+NeighborRadius 1000
+NeighborShape uniform
+NeighborWeight 0.01
+>> Intensity Class Thresholds
+IntensityClass2_BDP 0.33
+IntensityClass3_BDP 0.67
+>>Ecoregion Modifiers, the SBW is less in the north ecoregions, only for the 1st outbreak to mimick the historic 1967-1988
+eco7SALO	-0.05  
+eco7LOSA	-0.05
+eco8SALO	-0.05
+eco8LOSA	-0.05	
+eco9SALO	-0.025	
+eco9LOSA        -0.025
+eco10SALO	-0.025
+eco10LOSA	-0.025
+BDASpeciesParameters
+>>SpeciesName     Age1 SRDProb1  Age2 SRDProb2  Age3 SRDProb3  Age1 VulnProb1  Age2 VulnProb2  Age3 VulnProb3  fuel
+SB 0 0.12 50 0.3   80  0.4   0 0    50 0.15     80  0.2   yes
+EB 0 0.1  50 0.2   80  0.3   0 0    50 0.1      80  0.15  yes
+EN 0 0.07 50 0.1   80  0.2   0 0    50 0.08     999 0.1   yes
